@@ -1,0 +1,63 @@
+// Units File
+"DOTAUnits"
+{
+	"Version"	"1"
+	
+	"npc_terezi_sniff_dummy"
+	{										
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"					"npc_dota_creature"						// Class of entity of link to.
+		"Model"						"models/development/invisiblebox.mdl"		// Model.
+		"SoundSet"					"Hero_Rattletrap"													// Name of sound set.
+		"ModelScale" 				".01"
+		"Level"						"1"
+		"CanBeDominated"			"0"
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"				"10"								// Physical protection.
+
+		// Abilities
+		//----------------------------------------------------------------
+		
+		"Ability1"					"terezi_vision_dummy_passive"		// Ability 1.
+
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		""DOTA_UNIT_CAP_NO_ATTACK""
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"1"
+		"HealthBarOffset"			"99999"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"200"		// Experience earn.
+		"BountyGoldMin"				"300"		// Gold earned min.
+		"BountyGoldMax"				"300"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"522"		// Speed.
+		"MovementTurnRate"			"500"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"3000"		// Base health.
+		"StatusHealthRegen"			"2"			// Health regeneration rate.
+		"StatusMana"				"3000"		// Base mana.
+		"StatusManaRegen"			"5.0"		// Mana regeneration rate.		 
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1"		// Range of vision at night time.
+
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+
+	}
+	
+}

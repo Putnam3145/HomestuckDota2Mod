@@ -1,0 +1,200 @@
+// Dota Heroes File
+"DOTAAbilities"
+{
+	"Version"		"1"
+	//=================================================================================================================
+	// Terezi Pyrope: Coin Flip
+	//=================================================================================================================
+	"terezi_pyrope_coin_flip"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass" 					"ability_lua"
+		"AbilityTextureName"			"terezi_pyrope_coin_flip"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST"
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"20.0 30.0 40.0 50.0"
+		"AbilityCooldown"				"8.0 7.0 5.0 2.0"
+		"ScriptFile"					"terezi_pyrope_coin_flip"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"VAR_TYPE"		"FIELD_INTEGER"
+				"HeadsDamage"	"50.0 60.0 80.0 110.0"
+			}
+			"02"
+			{
+				"VAR_TYPE"		"FIELD_FLOAT"
+				"SlowTime"		"0.25 0.5 0.75 1.0"
+			}
+		}
+	}
+	//=================================================================================================================
+	// Terezi Pyrope: Sniff
+	//=================================================================================================================
+	"terezi_pyrope_sniff"
+	{
+		"BaseClass"					"ability_lua"
+		"AbilityTextureName"		"terezi_pyrope_sniff"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityCooldown"			"20.0 18.0 15.0 10.0"
+		"AbilityManaCost"			"50.0 60.0 70.0 80.0"
+		"ScriptFile"				"terezi_pyrope_sniff"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"sniff_range"	"500 750 1000 1250"
+			}
+			"02"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"duration"		"5"
+			}
+		}
+	}
+	//=================================================================================================================
+	// Terezi Pyrope: JUST1C3
+	//=================================================================================================================
+	"terezi_pyrope_justice"
+	{
+		"BaseClass"					"ability_lua"
+		"AbilityTextureName"		"terezi_pyrope_justice"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ScriptFile"				"terezi_pyrope_justice"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"max_mult"		"5 6 7 8"
+			}
+			"02"
+			{
+				"var_type"		"FIELD_INTEGER"
+				"stack_speed"	"15 20 25 30"
+			}
+		}
+	}
+	//=================================================================================================================
+	// Terezi Pyrope: Seer of Mind
+	//=================================================================================================================
+	
+	"terezi_pyrope_seer_of_mind"
+	{
+		"BaseClass"					"ability_lua"
+		"AbilityTextureName"		"terezi_pyrope_seer_of_mind"
+		"ScriptFile"				"terezi_pyrope_seer_of_mind"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"				"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"standard_length"	"2"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"aghs_length"		"5"
+			}
+		}
+	}
+	//=================================================================================================================
+	// Vriska Serket: Roll the Dice
+	//=================================================================================================================
+	"vriska_serket_roll_1"
+	{
+		"BaseClass"					"ability_lua"
+		"AbilityTextureName"		"vriska_serket_roll"
+		"ScriptFile"				"vriska_serket_roll_1"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"		"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_MECHANICAL"
+		"AbilityUnitTargetTeam"		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"MaxLevel"					"4"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"OneDamage"			"20 30 40 50"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"TwoDrain"			"20 30 40 50"
+			}
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"ThreeDuration"		"0.1 0.25 0.4 0.5"
+			}
+			"04"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"FourDuration"		"1 2 3 4"
+			}
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"FourDamage"		"5 10 15 20"
+			}
+			"06"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"FiveDuration"		"2 4 8 10"
+			}
+			"07"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"SixDuration"		"0.2 0.5 0.8 1"
+			}
+			"08"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"SevenDamage"		"10 20 30 40"
+			}
+			"09"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"EightDuration"		"0.2 0.5 0.8 1"
+			}
+		}
+	}
+	"vriska_serket_roll_2"
+	{
+		"BaseClass"					"ability_lua"
+		"AbilityTextureName"		"vriska_serket_roll"
+		"ScriptFile"				"vriska_serket_roll_2"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"					"9"
+	}
+	"vriska_serket_roll_3"
+	{
+		"BaseClass"					"ability_lua"
+		"AbilityTextureName"		"vriska_serket_roll"
+		"ScriptFile"				"vriska_serket_roll_3"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"					"9"
+	}
+	"vriska_serket_luck"
+	{
+		"BaseClass"					"ability_lua"
+		"AbilityTextureName"		"light_sburb"
+		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"					"1"
+		"ScriptFile"				"vriska_serket_luck"
+	}
+	"vriska_serket_steal_luck"
+	{
+		"BaseClass"					"ability_lua"
+		"AbilityTextureName"		"vriska_serket_steal_luck"
+	}
+}
