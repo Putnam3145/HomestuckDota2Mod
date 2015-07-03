@@ -24,8 +24,9 @@ end
 
 function modifier_terezi_pyrope_justice:OnAttack( params )
 	if IsServer() then
-		if params.attacker == self:GetParent() and ( not self:GetParent():IsIllusion() ) and params.target:IsHero() then
-			if self:GetParent():PassivesDisabled() then
+		if params.attacker == self:GetParent() and ( not self:GetParent:IsIllusion() ) then
+			if self:GetParent():PassivesDisabled() or not params.target:IsHero() then
+				self:GetParent():RemoveModifierByName('modifier_terezi_pyrope_justice_attack_speed')
 				return 0
 			end
 
