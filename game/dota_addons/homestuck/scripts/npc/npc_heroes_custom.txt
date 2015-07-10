@@ -25,4 +25,26 @@
 		"ArmorPhysical"				"1"
 		"MagicalResistance"			"25"	
 	}
+	//=================================================================================================================
+	// HERO: Dirk Strider
+	//=================================================================================================================
+	"npc_dota_hero_dirk_strider"
+	{
+		"override_hero"				"npc_dota_hero_juggernaut"				// Hero to override
+		"AbilityLayout"				"4"
+		"Ability1"					"dirk_strider_rap_battle"					
+        "Ability2"					"dirk_strider_unbreakable_katana"
+		"Ability3"					"dirk_strider_issues_of_self"
+		"Ability4"					"dirk_strider_prince_of_heart"
+		"AttributePrimary"			"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"		"20"
+		"AttributeStrengthGain"		"2.2"
+		"AttributeBaseAgility"		"25"
+		"AttributeAgilityGain"		"3.0"
+		"AttributeBaseIntelligence"	"18"
+		"AttributeIntelligenceGain"	"1.8"
+		"Team"						"Evil"
+		"ArmorPhysical"				"0"
+		"MagicalResistance"			"25"	
+	}
 }
