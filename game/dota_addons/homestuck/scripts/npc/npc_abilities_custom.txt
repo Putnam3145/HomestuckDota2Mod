@@ -2,6 +2,31 @@
 "DOTAAbilities"
 {
 	"Version"		"1"
+	
+	"grist_movement_passive"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"Modifiers"
+		{
+			"grist_movement_modifier"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"ApplyMotionController"
+				{
+					"TARGET"					"TARGET"
+					"ScriptFile"				"scripts/vscripts/internal/grist_movement.lua"
+					"HorizontalControlFunction"	"Movement"
+					"VerticalControlFunction"	"Movement"
+				}
+				"States"
+				{
+					"MODIFIER_STATE_UNSELECTABLE"
+				}
+			}
+		}
+	}
 	//=================================================================================================================
 	// Terezi Pyrope: Coin Flip
 	//=================================================================================================================
