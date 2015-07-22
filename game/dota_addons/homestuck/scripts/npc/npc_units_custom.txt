@@ -59,9 +59,14 @@
 
 	}
 	
-	"npc_homestuck_creep_prospit_imp"
+	"npc_homestuck_creep_prospit_pawn"
 	{
 		"BaseClass"					"npc_dota_creep_lane"
-		
+		"Model"						"models/creeps/lane_creeps/creep_radiant_melee/radiant_melee.mdl"
+		"SoundSet"					"Creep_Good_Melee"
+		"ModelScale" 				"0.93"
+		"Level"						"3"
+        
+        "ArmorPhysical"             "1"
 	}
 }
