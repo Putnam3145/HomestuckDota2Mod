@@ -1,0 +1,57 @@
+"Grist"
+{
+	"Types"
+	{
+		"Build"
+		{
+			"model"	"models/grist/elongated_hexagonal_bipyramid.vmdl"
+			"color"
+			{
+				"r"	"5"
+				"g"	"161"
+				"b"	"236"
+			}
+		}
+		"Amethyst"
+		{
+			"model"	"models/grist/elongated_hexagonal_bipyramid.vmdl"
+			"color"
+			{
+				"r"	"117"
+				"g"	"0"
+				"b"	"220"
+			}
+		}
+		"Garnet"
+		{
+			"model"	"models/grist/elongated_hexagonal_bipyramid.vmdl"
+			"color"
+			{
+				"r"	"182"
+				"g"	"1"
+				"b"	"2"
+			}
+		}
+	}
+	"Creatures"
+	{
+		"test" //"UnitLabel" "Test" in unit KV to give them this drop set
+		{
+			"01"
+			{
+				"Type"	"Build"
+				"Amount"	"1"
+			}
+			"02"
+			{
+				"Type"	"Garnet"
+				"Amount"	"10"
+			}
+			"03"
+			{
+				"Type"	"Amethyst"
+				"Amount"	"50"
+			}
+		}
+	}
+}

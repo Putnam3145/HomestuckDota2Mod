@@ -13,12 +13,14 @@
 			{
 				"Passive"	"1"
 				"IsHidden"	"1"
-				"ApplyMotionController"
+				"ThinkInterval"	"0.03"
+				"OnIntervalThink"
 				{
-					"TARGET"					"TARGET"
-					"ScriptFile"				"scripts/vscripts/internal/grist_movement.lua"
-					"HorizontalControlFunction"	"Movement"
-					"VerticalControlFunction"	"Movement"
+					"RunScript"
+					{
+						"ScriptFile"	"scripts/vscripts/internal/grist/movement.lua"
+						"Function"		"Movement"
+					}
 				}
 				"States"
 				{

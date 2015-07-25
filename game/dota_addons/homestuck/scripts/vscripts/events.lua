@@ -151,15 +151,16 @@ function GameMode:OnLastHit(keys)
   local isHeroKill = keys.HeroKill == 1
   local isTowerKill = keys.TowerKill == 1
   local killedEnt = EntIndexToHScript(keys.EntKilled)
-  for k,v in pairs(killedEnt.grist) do
-    local grist=CreateUnitByName('h_grist',killedEnt:GetCenter(),true)
-	local gristType=Grist:GetGristType(v.type)
+  local creatureGrist = Grist:GetGristFromCreature(killedEnt) or {}
+  for k,v in pairs(creatureGrist) do
+    local grist=CreateUnitByName('h_grist',killedEnt:GetCenter(),true,killedEnt,killedEnt,killedEnt:GetTeamNumber())
+    local gristType=Grist:GetGristType(v.Type)
 	grist:SetModel(gristType.model)
 	grist:SetRenderColor(gristType.color.r,gristType.color.g,gristType.color.b)
-	grist.gristType=v.type
-	grist.gristAmount=v.amount
-	grist:SetModelScale(math.log10(math.max(10,v.amount)))
-  end
+	grist.gristType=v.Type
+	grist.gristAmount=v.Amount
+	grist:SetModelScale((math.log10(math.max(2,v.Amount))+4)*7) --magic numbers trying to make it Look Right
+	end
 end
 
 -- A tree was cut down by tango, quelling blade, etc
