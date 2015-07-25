@@ -35,7 +35,7 @@
 	}
 	"Creatures"
 	{
-		"test" //"UnitLabel" "Test" in unit KV to give them this drop set
+		"test" //"UnitLabel" "test" in unit KV to give them this drop set
 		{
 			"01"
 			{
