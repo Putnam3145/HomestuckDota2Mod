@@ -142,7 +142,7 @@ CVMaterialRemapList CVMaterialRemapList_0
 		CVMaterialRemap
 		{
 			string m_sSearchMaterial = "material.vmat"
-			string m_sReplaceMaterial = "materials/grist/solid_grist.vmat"
+			string m_sReplaceMaterial = "materials/solid_grist.vmat"
 		}
 	]
 }
