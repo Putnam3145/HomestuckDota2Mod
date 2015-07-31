@@ -20,7 +20,8 @@
 		// Abilities
 		//----------------------------------------------------------------
 		
-		"Ability1"						"grist_movement_passive"		// Ability 1.
+		"Ability1"						"grist_movement_passive"		
+		"Ability2"						"modifier_invulnerable"
 
 		// Attack
 		//-------------------------------------------------------------------------------------------------------------
