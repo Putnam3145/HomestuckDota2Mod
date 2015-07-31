@@ -19,7 +19,8 @@ function Movement(args)
 	end
 	averageTargetPos=averageTargetPos/#targets
 	local direction = averageTargetPos - casterPos
-	local vec=direction:Normalized()*5.0
+	local gravitationalConstant=4200 --arbitrary number chosen to Feel Right
+	local vec=direction:Normalized()*math.ceil(gravitationalConstant*(1/direction:Length()))
 	
 	caster:SetAbsOrigin(casterPos+vec)
 	return false
