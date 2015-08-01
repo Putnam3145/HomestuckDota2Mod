@@ -6,7 +6,7 @@ function Movement(args)
 		caster:Kill(caster,caster)
 		return true
 	end
-	local targets = FindUnitsInRadius(caster:GetTeamNumber(),caster:GetAbsOrigin(),caster,600,DOTA_UNIT_TARGET_TEAM_BOTH,DOTA_UNIT_TARGET_HERO,DOTA_UNIT_TARGET_FLAG_NO_INVIS,FIND_CLOSEST,false)
+	local targets = FindUnitsInRadius(caster:GetTeamNumber(),caster:GetAbsOrigin(),caster,5000,DOTA_UNIT_TARGET_TEAM_BOTH,DOTA_UNIT_TARGET_HERO,DOTA_UNIT_TARGET_FLAG_NO_INVIS,FIND_CLOSEST,false)
 	local casterPos = caster:GetAbsOrigin()
 	local direction = casterPos
 	local averageTargetPos = nil
@@ -17,11 +17,15 @@ function Movement(args)
 			averageTargetPos=averageTargetPos+v:GetAbsOrigin()
 		end
 	end
-	averageTargetPos=averageTargetPos/#targets
-	local direction = averageTargetPos - casterPos
-	local gravitationalConstant=4200 --arbitrary number chosen to Feel Right
-	local vec=direction:Normalized()*math.ceil(gravitationalConstant*(1/direction:Length()))
-	
-	caster:SetAbsOrigin(casterPos+vec)
-	return false
+	if averageTargetPos then
+		averageTargetPos=averageTargetPos/#targets
+		local direction = averageTargetPos - casterPos
+		local gravitationalConstant=4200 --arbitrary number chosen to Feel Right
+		local vec=direction:Normalized()*math.ceil(gravitationalConstant*(1/direction:Length()))
+		
+		caster:SetAbsOrigin(casterPos+vec)
+		return true
+	else
+		return false
+	end
 end
