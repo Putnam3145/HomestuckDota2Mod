@@ -11,12 +11,12 @@ end
 function Grist:AdjustGristGutter(gristType,amount,team)
 	local gristGutter=self:GetGristGutter(team)
 	local curGristAmount=gristGutter[gristType]
-	if curGristAmount-amount<0 then
+	if curGristAmount+amount<0 then
 		return false 
 	else 
 		gristGutter[gristType]=curGristAmount+amount
 		gristGutter[total]:insert({amount=amount,color=gristType.color})
-		print(gristGutter[gristType])
+		CustomGameEventManager:Send_ServerToTeam(team,"grist_gutter_changed",gristGutter[total])
 		return gristGutter[gristType]
 	end
 end
@@ -31,23 +31,24 @@ function Grist:AdjustGristCache(gristType,amount,playerID)
 	local gristCache=self:GetGristCache(playerID)
 	gristCache[gristType]=gristCache[gristType] or 0
 	local curGristAmount=gristCache[gristType]
-	if curGristAmount-amount<0 then
+	if curGristAmount+amount<0 then
 		return false
 	end
 	if not gristCache[maximum] then self:AdjustGristCacheMax(1000,playerID) end
-	local overflow=gristCache[maximum]-(gristCache[gristType]+amount)
+	local overflow=(gristCache[gristType]+amount)-gristCache[maximum]
 	if overflow>0 then
 		self:AdjustGristGutter(gristType,overflow,PlayerResource:GetTeam(playerID))
 		amount=amount-overflow
 	end
 	gristCache[gristType]=curGristAmount+amount
-	print(gristCache[gristType])
+	CustomGameEventManager:Send_ServerToPlayer(PlayerResource:GetPlayer(playerID),"grist_cache_changed",{gristType=gristType,amount=gristCache[gristType]})
 	return gristCache[gristType]
 end
 
 function Grist:AdjustGristCacheMax(amount,playerID)
 	local gristCache=self:GetGristCache(playerID)
 	gristCache[maximum]=gristCache[maximum] and gristCache[maximum]+amount or amount
+	CustomGameEventManager:Send_ServerToPlayer(PlayerResource:GetPlayer(playerID),"grist_cache_max_changed",{amount=amount})
 	return gristCache[maximum]
 end
 
