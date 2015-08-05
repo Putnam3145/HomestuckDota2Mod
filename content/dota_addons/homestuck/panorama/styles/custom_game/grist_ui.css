@@ -1,0 +1,12 @@
+.GristUIOpenButton
+{
+    horizontal-align: left;
+	vertical-align: top;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.MainGristUI
+{
+    flow-children: down;
+}

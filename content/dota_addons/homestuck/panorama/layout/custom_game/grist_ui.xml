@@ -1,0 +1,17 @@
+<root>
+  <styles>
+    <include src="file://{resources}/styles/custom_game/grist_ui.css" />
+  </styles>
+  <scripts>
+    <include src="file://{resources}/scripts/custom_game/grist_ui.js" />
+  </scripts>
+  <Panel class="GristUI">
+    <Button id="GristUIOpenButton" onactivate="OnOpenButtonPressed">
+	  <Image src="file://{images}/custom_game/grist.png" />
+	</Button>
+	<Panel class="MainGristUI" visible="false" id="MainGristUI">
+	  <Label text="GristGutter" />
+	  <Panel hittest="false" id="GristGutter" />
+	</Panel>
+  </Panel>
+</root>
