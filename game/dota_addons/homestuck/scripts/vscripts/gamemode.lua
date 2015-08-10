@@ -107,6 +107,7 @@ function GameMode:OnGameInProgress()
       DebugPrint("This function is called 30 seconds after the game begins, and every 30 seconds thereafter")
       return 30.0 -- Rerun this timer every 30 game-time seconds 
     end)
+  Timers:CreateTimer(function() Grist:GristTorrent() return 1 end)
 end
 
 
@@ -124,7 +125,7 @@ function GameMode:InitGameMode()
 
   -- Commands can be registered for debugging purposes or as functions that can be called by the custom Scaleform UI
   Convars:RegisterCommand( "command_example", Dynamic_Wrap(GameMode, 'ExampleConsoleCommand'), "A console command example", FCVAR_CHEAT )
-
+  Convars:RegisterCommand( "grist_gutter_test",function() for i=0,2 do Grist:AdjustGristGutter('Build',100,i) end end, "Adds 100 build grist to all grist gutters",FCVAR_CHEAT)
   DebugPrint('[BAREBONES] Done loading Barebones gamemode!\n\n')
 end
 

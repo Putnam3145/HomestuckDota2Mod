@@ -11,6 +11,7 @@
 				"g"	"161"
 				"b"	"236"
 			}
+			"name"	"Build"
 		}
 		"Amethyst"
 		{
@@ -21,6 +22,7 @@
 				"g"	"0"
 				"b"	"220"
 			}
+			"name"	"Amethyst"
 		}
 		"Garnet"
 		{
@@ -31,6 +33,7 @@
 				"g"	"1"
 				"b"	"2"
 			}
+			"name"	"Garnet"
 		}
 	}
 	"Creatures"

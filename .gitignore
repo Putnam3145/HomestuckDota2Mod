@@ -44,4 +44,8 @@ Temporary Items
 
 #Files that Dota 2 will take care of when compiling or loading the map
 
-*.bin
+*.vcss_c
+*.vxml_c
+*.vjs_c
+*.vtex_c
+game/dota_addons/homestuck/tools_asset_info.bin

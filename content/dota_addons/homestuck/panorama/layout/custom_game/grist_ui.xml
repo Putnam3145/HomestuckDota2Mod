@@ -5,13 +5,13 @@
   <scripts>
     <include src="file://{resources}/scripts/custom_game/grist_ui.js" />
   </scripts>
-  <Panel class="GristUI">
-    <Button id="GristUIOpenButton" onactivate="OnOpenButtonPressed">
+  <Panel class="GristUI" hittest="false">
+    <Button hittest="true" class="GristUIOpenButton" id="GristUIOpenButton" onactivate="OnOpenButtonPressed()">
 	  <Image src="file://{images}/custom_game/grist.png" />
 	</Button>
 	<Panel class="MainGristUI" visible="false" id="MainGristUI">
-	  <Label text="GristGutter" />
-	  <Panel hittest="false" id="GristGutter" />
+	  <Label text="GristGutter" id="GristGutterLiteralLabel" class="GristInfo"/>
+	  <Label hittest="false" id="GristGutterDisplay" class="GristInfo"/> <!-- Label for now since there is nothing like canvas in Panorama at the moment -->
 	</Panel>
   </Panel>
 </root>

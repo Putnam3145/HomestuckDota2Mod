@@ -320,7 +320,7 @@ function GameMode:OnTowerKill(keys)
   local gold = keys.gold
   local killerPlayer = PlayerResource:GetPlayer(keys.killer_userid)
   local team = keys.teamnumber
-  killerPlayer:AddGrist(50)
+  Grist:AdjustGristGutter('Build',1000,team)
 end
 
 -- This function is called whenever a player changes there custom team selection during Game Setup 

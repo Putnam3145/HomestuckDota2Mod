@@ -1,12 +1,30 @@
+.GristUI
+{
+    width: 100%;
+    height: 100%;
+}
+
 .GristUIOpenButton
 {
     horizontal-align: left;
 	vertical-align: top;
-	margin-top: 50px;
-	margin-left: 50px;
+	margin-top: 12px;
+	margin-left: 204px;
+	width: 16px;
+	height: 16px;
 }
 
 .MainGristUI
 {
+	horizontal-align: left;
+	vertical-align: top;
+	margin-top: 43px;
+	margin-left: 204px;
     flow-children: down;
+	background-color: #242424;
+}
+
+.GristInfo
+{
+	color: #30d0eb;
 }

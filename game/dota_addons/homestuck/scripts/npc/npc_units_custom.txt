@@ -65,6 +65,7 @@
 		"BaseClass"					"npc_dota_creep_lane"
 		"Model"							"models/creeps/lane_creeps/creep_radiant_melee/radiant_melee.mdl" //should be a proper model later, obv.
 		"SoundSet"					"Creep_Good_Melee"
+		"UnitLabel"					"test"
 		"ModelScale" 				"0.93"
 		"Level"							"3"
         "ArmorPhysical"             "1"
