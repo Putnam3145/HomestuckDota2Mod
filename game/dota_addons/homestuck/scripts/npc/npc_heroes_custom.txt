@@ -10,6 +10,9 @@
 	{
 		"override_hero"				"npc_dota_hero_phantom_assassin"			// Hero to override
 		"AbilityLayout"				"4"
+        "Model"						"models/characters/terezi.vmdl"
+        "ModelScale"                "3"
+        "HeroGlowColor" 			"0 130 130"
 		"Ability1"					"terezi_pyrope_coin_flip"					
         "Ability2"					"terezi_pyrope_sniff"
 		"Ability3"					"terezi_pyrope_justice"

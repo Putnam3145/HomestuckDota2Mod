@@ -1,0 +1,1419 @@
+<!-- schema text {7e125a45-3d83-4043-b292-9e24f8ef27b4} generic {198980d8-3a93-4919-b4c6-dd1fb07a3a4b} -->
+CVModel CVModel_0
+{
+	CVmeshList m_meshList = CVmeshList
+	{
+		CVmesh[] m_meshList = 
+		[
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_top"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_top.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_bottom"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_bottom.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_hair_1"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_hair_1.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_reference"
+				string m_meshFile = "models/characters/decompiled/terezi_reference.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_horns"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_horns.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_upperbody_default"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_upperbody_default.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_shoes"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_shoes.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_glasses"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_glasses.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "c_tcane_reference"
+				string m_meshFile = "models/characters/decompiled/c_tcane_reference.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_feet_1"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_feet_1.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_lowerbody_2"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_lowerbody_2.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_upperbody_1"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_upperbody_1.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			},
+			CVmesh
+			{
+				string m_meshName = "terezi_bodygroup_hair_2"
+				string m_meshFile = "models/characters/decompiled/terezi_bodygroup_hair_2.smd"
+				string m_materialSearchPath = ""
+				bool m_bSkinParentedObjects = true
+				bool m_bLegacySkinParentedTransforms = false
+				bool m_bExpensiveTangents = false
+				bool m_bExpensiveVertices = false
+				bool m_bIgnoreCloth = false
+				bool m_bGetSkinningFromLod0 = false
+				CVmorphInfo* m_pMorphInfo = NULL
+			}
+		]
+	}
+	CVClothProxyMeshList m_clothProxyMeshList = CVClothProxyMeshList
+	{
+		CVClothProxyMesh[] m_clothProxyMeshList = 
+		[
+			
+		]
+		float m_flClothEnableThreshold = 0.050000
+		bool m_bCreateStaticBone = false
+		int m_nMaxBonesPerVertex = 4
+		bool m_bRemoveUnusedBonesEnabled = false
+		bool m_bDriveMeshesWithBacksolvedJointsOnly = true
+		float m_flMatchProxiesToMeshes = 1.000000
+		float m_flReservedFloat = 0.000000
+		int m_nReservedInt = 0
+		bool m_bReservedBool1 = false
+		bool m_bReservedBool2 = false
+		bool m_bReservedBool3 = false
+		bool m_bReservedBool4 = false
+	}
+	CVphysicsMeshList m_physicsMeshList = CVphysicsMeshList
+	{
+		CVphysicsMesh[] m_meshList = 
+		[
+			CVphysicsMesh
+			{
+				string m_meshName = "terezi_physics"
+				string m_meshFile = "models/characters/decompiled/terezi_physics.smd"
+				bool m_bOneConvexPiece = true
+				bool m_bUseExactGeometry = false
+				bool m_bAutoMass = true
+				float m_flMassOverride = 100.000000
+				bool m_bConcavePerJoint = false
+				bool m_bSelfCollisions = false
+				bool m_bForceKinematic = false
+				bool m_bIgnoreScale = false
+				bool m_bIgnoreSkeleton = false
+			}
+		]
+	}
+	CVmodelInfo* m_pModelInfo = NULL
+	CVBoneFlagListReference m_pBoneFlagList = CVBoneFlagListReference
+	{
+		CVBoneFlagList* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVhitBoxSetListReference[] m_pHitBoxSetLists = 
+	[
+		CVhitBoxSetListReference
+		{
+			CVhitBoxSetList* m_pObject = &CVhitBoxSetList_0
+			string m_sFileName = ""
+		}
+	]
+	CVattachmentListReference[] m_pAttachmentLists = 
+	[
+		CVattachmentListReference
+		{
+			CVattachmentList* m_pObject = &CVattachmentList_0
+			string m_sFileName = ""
+		}
+	]
+	CVanimGroupReference[] m_pAnimGroups = 
+	[
+		CVanimGroupReference
+		{
+			CVanimGroup* m_pObject = &CVanimGroup_0
+			string m_sFileName = ""
+		},
+		CVanimGroupReference
+		{
+			CVanimGroup* m_pObject = &CVanimGroup_1
+			string m_sFileName = ""
+		}
+	]
+	CVNodeMaterialGroupListReference m_pMaterialGroupList = CVNodeMaterialGroupListReference
+	{
+		NodeMaterialGroupList_t* m_pObject = &NodeMaterialGroupList_t_0
+		string m_sFileName = ""
+	}
+	CVMeshGroupListReference m_pMeshGroupList = CVMeshGroupListReference
+	{
+		MeshGroupList_t* m_pObject = &MeshGroupList_t_0
+		string m_sFileName = ""
+	}
+	CVLODGroupListReference m_pLodGroupList = CVLODGroupListReference
+	{
+		LODGroupList_t* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVpropBreakableListReference m_pPropBreakableList = CVpropBreakableListReference
+	{
+		CVpropBreakableList* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVpropDataListReference m_pPropDataList = CVpropDataListReference
+	{
+		CVpropDataList* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVConstraintListReference[] m_pConstraintLists = 
+	[
+		
+	]
+	string m_collision = ""
+	string m_softbody = ""
+	string m_sMDLFilename = ""
+	string[] m_sOffsetHitboxSets = 
+	[
+		
+	]
+	float(3) m_vHitboxSetOffset = ( 0.000000, 0.000000, 0.000000 )
+	string[] m_scriptFiles = 
+	[
+		
+	]
+	CVMaterialRemapList* m_pMaterialRemapList = &CVMaterialRemapList_0
+	float m_flFbxScale = 1.000000
+	float m_flQCScale = 1.000000
+	float(3) m_vOrigin = ( 0.000000, 0.000000, 0.000000 )
+	CVPsf* m_pvPsf = NULL
+	string m_keyValueText = ""
+	bool m_bStaticProp = false
+	bool m_bEnableClothProcessing = true
+	float m_flClothEnableThreshold = 0.050000
+	int m_nMaxClothVertsPerMesh = 2048
+	bool m_bBuildClothBoneHierarchy = false
+	symbol m_nNavType = AUTH_NAV_MESH
+	bool m_bMakeUniqueVMeshes = false
+	bool m_bMakeImplicitBindPoseSequence = false
+	bool m_bAdjustSkeletonFromBoneFlags = false
+}
+
+CVhitBoxSetList CVhitBoxSetList_0
+{
+	CVhitBoxSet[] m_HitBoxSets = 
+	[
+		CVhitBoxSet
+		{
+			string m_name = "default"
+			CVhitBox[] m_HitBoxes = 
+			[
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_Spine"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_Spine"
+					float(3) m_vMinBounds = ( 1.220106, -2.401464, -4.667294 )
+					float(3) m_vMaxBounds = ( 2.703403, 3.824552, 4.668413 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_Spine1"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_Spine1"
+					float(3) m_vMinBounds = ( 0.698431, -2.075727, -3.965975 )
+					float(3) m_vMaxBounds = ( 2.144006, 3.262455, 3.967104 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_Spine2"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_Spine2"
+					float(3) m_vMinBounds = ( 0.467659, -2.478441, -4.407990 )
+					float(3) m_vMaxBounds = ( 6.896908, 3.418745, 4.409136 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_Spine4"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_Spine4"
+					float(3) m_vMinBounds = ( -0.887711, -2.330868, -5.753480 )
+					float(3) m_vMaxBounds = ( 3.636799, 1.980012, 5.754647 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_UpperArm"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_UpperArm"
+					float(3) m_vMinBounds = ( 0.026091, -1.629660, -1.739071 )
+					float(3) m_vMaxBounds = ( 3.705906, 1.265571, 1.530457 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_UpperArm"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_UpperArm"
+					float(3) m_vMinBounds = ( 0.029847, -1.629687, -1.531738 )
+					float(3) m_vMaxBounds = ( 3.709656, 1.265548, 1.737793 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_Pelvis"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_Pelvis"
+					float(3) m_vMinBounds = ( -5.183687, -2.490078, -3.414150 )
+					float(3) m_vMaxBounds = ( 5.184816, 2.563759, 2.956350 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Thigh"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Thigh"
+					float(3) m_vMinBounds = ( -0.003420, -2.786242, -2.942420 )
+					float(3) m_vMaxBounds = ( 10.087843, 2.520626, 2.433049 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Thigh"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Thigh"
+					float(3) m_vMinBounds = ( -0.005016, -2.786159, -2.408500 )
+					float(3) m_vMaxBounds = ( 10.086258, 2.520711, 2.966971 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Calf"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Calf"
+					float(3) m_vMinBounds = ( 0.384232, -3.129982, -2.864737 )
+					float(3) m_vMaxBounds = ( 14.134031, 2.981004, 2.775294 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Calf"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Calf"
+					float(3) m_vMinBounds = ( 0.382851, -3.129892, -2.750710 )
+					float(3) m_vMaxBounds = ( 14.132618, 2.981090, 2.889333 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Foot"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Foot"
+					float(3) m_vMinBounds = ( -2.794904, -2.779740, -3.015344 )
+					float(3) m_vMaxBounds = ( 4.453316, 4.431422, 3.338545 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Foot"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Foot"
+					float(3) m_vMinBounds = ( -2.795969, -2.778816, -3.313961 )
+					float(3) m_vMaxBounds = ( 4.452240, 4.432310, 3.039927 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_Head1"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_Head1"
+					float(3) m_vMinBounds = ( -2.942532, -4.753226, -8.164509 )
+					float(3) m_vMaxBounds = ( 11.558392, 6.780721, 8.026558 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_Neck1"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_Neck1"
+					float(3) m_vMinBounds = ( 1.835003, -1.713937, -1.399312 )
+					float(3) m_vMaxBounds = ( 2.677029, 1.079505, 1.398154 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Forearm"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Forearm"
+					float(3) m_vMinBounds = ( -0.122714, -1.146900, -1.177612 )
+					float(3) m_vMaxBounds = ( 6.264552, 1.077265, 1.304565 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Forearm"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Forearm"
+					float(3) m_vMinBounds = ( -0.118959, -1.146869, -1.305862 )
+					float(3) m_vMaxBounds = ( 6.268332, 1.077302, 1.176311 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Hand"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Hand"
+					float(3) m_vMinBounds = ( -0.271859, -1.561852, -1.924751 )
+					float(3) m_vMaxBounds = ( 3.654494, 0.798214, 2.154987 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Hand"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Hand"
+					float(3) m_vMinBounds = ( -0.253148, -1.554777, -2.162769 )
+					float(3) m_vMaxBounds = ( 3.673204, 0.805294, 1.916969 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger4"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger4"
+					float(3) m_vMinBounds = ( 0.196024, -0.383965, -0.645573 )
+					float(3) m_vMaxBounds = ( 0.965037, 0.548838, 0.469128 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger3"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger3"
+					float(3) m_vMinBounds = ( 0.189031, -0.616844, -0.518465 )
+					float(3) m_vMaxBounds = ( 1.444058, 0.624191, 0.462612 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger2"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger2"
+					float(3) m_vMinBounds = ( 0.224495, -0.715317, -0.531246 )
+					float(3) m_vMaxBounds = ( 1.511313, 0.508705, 0.443867 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger1"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger1"
+					float(3) m_vMinBounds = ( 0.439790, -0.437946, -0.411648 )
+					float(3) m_vMaxBounds = ( 1.413880, 0.576675, 0.491096 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger1"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger1"
+					float(3) m_vMinBounds = ( 0.698976, -0.364254, -0.509893 )
+					float(3) m_vMaxBounds = ( 1.673072, 0.650337, 0.392851 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger2"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger2"
+					float(3) m_vMinBounds = ( 0.471550, -0.633015, -0.515820 )
+					float(3) m_vMaxBounds = ( 1.758364, 0.591007, 0.459301 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger3"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger3"
+					float(3) m_vMinBounds = ( 0.426820, -0.557102, -0.575977 )
+					float(3) m_vMaxBounds = ( 1.681842, 0.683935, 0.405096 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger4"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger4"
+					float(3) m_vMinBounds = ( 0.405441, -0.349979, -0.636284 )
+					float(3) m_vMaxBounds = ( 1.174449, 0.582825, 0.478416 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger41"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger41"
+					float(3) m_vMinBounds = ( 0.208253, -0.408201, -0.442099 )
+					float(3) m_vMaxBounds = ( 0.255163, 0.354343, 0.425753 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger31"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger31"
+					float(3) m_vMinBounds = ( 0.256426, -0.328033, -0.501789 )
+					float(3) m_vMaxBounds = ( 0.761286, 0.540928, 0.492607 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger21"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger21"
+					float(3) m_vMinBounds = ( 0.040199, -0.465523, -0.442751 )
+					float(3) m_vMaxBounds = ( 0.946854, 0.463470, 0.512846 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger11"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger11"
+					float(3) m_vMinBounds = ( 0.512486, -0.295662, -0.414246 )
+					float(3) m_vMaxBounds = ( 0.917892, 0.493813, 0.463688 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger0"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger0"
+					float(3) m_vMinBounds = ( 0.122664, -0.700204, -0.634804 )
+					float(3) m_vMaxBounds = ( 1.085418, 0.464192, 0.619251 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger0"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger0"
+					float(3) m_vMinBounds = ( 0.318262, -0.545220, -0.722622 )
+					float(3) m_vMaxBounds = ( 1.281016, 0.619177, 0.531433 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger11"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger11"
+					float(3) m_vMinBounds = ( 0.754662, -0.181240, -0.498293 )
+					float(3) m_vMaxBounds = ( 1.160065, 0.608234, 0.379641 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger21"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger21"
+					float(3) m_vMinBounds = ( 0.266586, -0.346817, -0.600126 )
+					float(3) m_vMaxBounds = ( 1.173250, 0.582180, 0.355476 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger31"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger31"
+					float(3) m_vMinBounds = ( 0.475489, -0.234745, -0.620008 )
+					float(3) m_vMaxBounds = ( 0.980371, 0.634222, 0.374371 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger41"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger41"
+					float(3) m_vMinBounds = ( 0.407365, -0.308599, -0.578794 )
+					float(3) m_vMaxBounds = ( 0.454267, 0.453945, 0.289047 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger42"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger42"
+					float(3) m_vMinBounds = ( 0.372925, -0.283691, -0.363377 )
+					float(3) m_vMaxBounds = ( 0.760013, 0.397562, 0.410049 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger32"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger32"
+					float(3) m_vMinBounds = ( 0.155781, -0.370562, -0.519644 )
+					float(3) m_vMaxBounds = ( 1.035591, 0.506920, 0.503460 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger22"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger22"
+					float(3) m_vMinBounds = ( 0.390173, -0.459156, -0.395847 )
+					float(3) m_vMaxBounds = ( 0.913931, 0.395782, 0.504616 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger12"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger12"
+					float(3) m_vMinBounds = ( 0.329510, -0.329403, -0.374086 )
+					float(3) m_vMaxBounds = ( 0.863912, 0.418423, 0.462595 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Finger01"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Finger01"
+					float(3) m_vMinBounds = ( -0.036025, -0.581478, -0.623669 )
+					float(3) m_vMaxBounds = ( 1.359736, 0.538136, 0.493977 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger01"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger01"
+					float(3) m_vMinBounds = ( 0.158979, -0.434361, -0.609241 )
+					float(3) m_vMaxBounds = ( 1.554741, 0.685250, 0.508404 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger12"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger12"
+					float(3) m_vMinBounds = ( 0.570241, -0.211853, -0.496731 )
+					float(3) m_vMaxBounds = ( 1.104641, 0.535976, 0.339949 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger22"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger22"
+					float(3) m_vMinBounds = ( 0.616047, -0.339701, -0.591869 )
+					float(3) m_vMaxBounds = ( 1.139807, 0.515236, 0.308594 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger32"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger32"
+					float(3) m_vMinBounds = ( 0.375851, -0.278156, -0.629948 )
+					float(3) m_vMaxBounds = ( 1.255659, 0.599319, 0.393154 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Finger42"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Finger42"
+					float(3) m_vMinBounds = ( 0.573339, -0.186314, -0.562847 )
+					float(3) m_vMaxBounds = ( 0.960404, 0.494934, 0.210598 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_L_Toe0"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_L_Toe0"
+					float(3) m_vMinBounds = ( 0.052015, -1.392790, -2.347065 )
+					float(3) m_vMaxBounds = ( 2.892856, 1.303214, 2.608656 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				},
+				CVhitBox
+				{
+					string m_name = "ValveBiped.Bip01_R_Toe0"
+					string m_sSurfaceProperty = ""
+					int m_nGroupId = 0
+					string m_sBoneName = "ValveBiped.Bip01_R_Toe0"
+					float(3) m_vMinBounds = ( 0.051542, -1.392629, -2.595400 )
+					float(3) m_vMaxBounds = ( 2.892372, 1.303372, 2.360322 )
+					uint(4) m_cRenderColor = ( 0, 0, 0, 0 )
+				}
+			]
+		}
+	]
+}
+
+CVattachmentList CVattachmentList_0
+{
+	string m_name = ""
+	CVattachment[] m_attachments = 
+	[
+		CVattachment
+		{
+			string m_name = "attach_attack1"
+			CVattachmentInfluence[] m_influences = 
+			[
+				CVattachmentInfluence
+				{
+					string m_influenceName = "ValveBiped.Bip01_Pelvis"
+					float(3) m_vTranslationOffset = ( 0.000000, 0.000000, 0.000000 )
+					float(3) m_vRotationOffset = ( 0.000000, 0.000000, 0.000000 )
+					float m_flWeight = 1.000000
+					bool m_bRoot = false
+				}
+			]
+		},
+		CVattachment
+		{
+			string m_name = "attach_hitloc"
+			CVattachmentInfluence[] m_influences = 
+			[
+				CVattachmentInfluence
+				{
+					string m_influenceName = "ValveBiped.Bip01_Spine2"
+					float(3) m_vTranslationOffset = ( 0.000000, 0.000000, 0.000000 )
+					float(3) m_vRotationOffset = ( 0.000000, 0.000000, 0.000000 )
+					float m_flWeight = 1.000000
+					bool m_bRoot = false
+				}
+			]
+		}
+	]
+}
+
+CVanimGroup CVanimGroup_0
+{
+	string m_Name = "Movement"
+	CVReferenceSkeletonReference m_pReferenceSkeleton = CVReferenceSkeletonReference
+	{
+		CVReferenceSkeleton* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVBoneFlagListReference m_pBoneFlagList = CVBoneFlagListReference
+	{
+		CVBoneFlagList* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVseqGroupReference m_pSeqGroup = CVseqGroupReference
+	{
+		CVseqGroup* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVanimGroupReference[] m_pAnimGroups = 
+	[
+		
+	]
+	CVanim[] m_Vanim = 
+	[
+		CVanim
+		{
+			string m_Animationname = "run"
+			string m_Filepath = "models/characters/decompiled/animations/a_RunMeleeN.smd"
+			int m_nStartframe = 0
+			int m_nEndframe = 18
+			float m_flFps = 30.000000
+			CAnimationLoop m_Loop = CAnimationLoop
+			{
+				bool m_bLoop = true
+				bool m_bSmoothLoop = false
+				int m_nSmoothLoopStart = 0
+				int m_nSmoothLoopEnd = 0
+				CVAnimCmdStartLoop m_StartLoop = CVAnimCmdStartLoop
+				{
+					bool m_bEnabled = false
+					int m_nLoopRestart = 5
+				}
+			}
+			bool m_bHidden = false
+			CActivity[] m_Activities = 
+			[
+				CActivity
+				{
+					string m_Name = "ACT_DOTA_RUN"
+					int m_nWeight = 1
+				}
+			]
+			CAnimationEvent[] m_AnimationEvents = 
+			[
+				
+			]
+			CMotionFrame[] m_MotionFrames = 
+			[
+				CMotionFrame
+				{
+					int m_nFrame = 0
+					bool m_bExtractTX = true
+					bool m_bExtractTY = true
+					bool m_bExtractTZ = false
+					bool m_bExtractRX = false
+					bool m_bExtractRY = false
+					bool m_bExtractRZ = false
+					bool m_bDiscardTX = false
+					bool m_bDiscardTY = false
+					bool m_bDiscardTZ = false
+					bool m_bDiscardRX = false
+					bool m_bDiscardRY = false
+					bool m_bDiscardRZ = false
+				}
+			]
+			CIKrule*[] m_pIkRules = 
+			[
+				
+			]
+			CAlignAnimation* m_pAlignAnimation = NULL
+			CAdjustAnimation m_adjustAnimation = CAdjustAnimation
+			{
+				float(3) m_translation = ( 0.000000, 0.000000, 0.000000 )
+				float(3) m_rotation = ( 0.000000, 0.000000, 0.000000 )
+			}
+			string[] m_Keywords = 
+			[
+				
+			]
+			CVAnimResourceSequenceParams m_sequenceParams = CVAnimResourceSequenceParams
+			{
+				float m_flFadeInTime = 0.200000
+				float m_flFadeOutTime = 0.200000
+			}
+		},
+		CVanim
+		{
+			string m_Animationname = "a_idle_melee"
+			string m_Filepath = "models/characters/decompiled/animations/a_idle_melee.smd"
+			int m_nStartframe = 0
+			int m_nEndframe = 30
+			float m_flFps = 30.000000
+			CAnimationLoop m_Loop = CAnimationLoop
+			{
+				bool m_bLoop = true
+				bool m_bSmoothLoop = false
+				int m_nSmoothLoopStart = 0
+				int m_nSmoothLoopEnd = 0
+				CVAnimCmdStartLoop m_StartLoop = CVAnimCmdStartLoop
+				{
+					bool m_bEnabled = false
+					int m_nLoopRestart = 0
+				}
+			}
+			bool m_bHidden = false
+			CActivity[] m_Activities = 
+			[
+				CActivity
+				{
+					string m_Name = "ACT_DOTA_IDLE"
+					int m_nWeight = 1
+				}
+			]
+			CAnimationEvent[] m_AnimationEvents = 
+			[
+				
+			]
+			CMotionFrame[] m_MotionFrames = 
+			[
+				
+			]
+			CIKrule*[] m_pIkRules = 
+			[
+				
+			]
+			CAlignAnimation* m_pAlignAnimation = NULL
+			CAdjustAnimation m_adjustAnimation = CAdjustAnimation
+			{
+				float(3) m_translation = ( 0.000000, 0.000000, 0.000000 )
+				float(3) m_rotation = ( 0.000000, 0.000000, 0.000000 )
+			}
+			string[] m_Keywords = 
+			[
+				
+			]
+			CVAnimResourceSequenceParams m_sequenceParams = CVAnimResourceSequenceParams
+			{
+				float m_flFadeInTime = 0.200000
+				float m_flFadeOutTime = 0.200000
+			}
+		}
+	]
+	string[] m_sScripts = 
+	[
+		
+	]
+}
+
+CVanimGroup CVanimGroup_1
+{
+	string m_Name = "Combat"
+	CVReferenceSkeletonReference m_pReferenceSkeleton = CVReferenceSkeletonReference
+	{
+		CVReferenceSkeleton* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVBoneFlagListReference m_pBoneFlagList = CVBoneFlagListReference
+	{
+		CVBoneFlagList* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVseqGroupReference m_pSeqGroup = CVseqGroupReference
+	{
+		CVseqGroup* m_pObject = NULL
+		string m_sFileName = ""
+	}
+	CVanimGroupReference[] m_pAnimGroups = 
+	[
+		
+	]
+	CVanim[] m_Vanim = 
+	[
+		CVanim
+		{
+			string m_Animationname = "die_simple"
+			string m_Filepath = "models/characters/decompiled/animations/die_simple.smd"
+			int m_nStartframe = 0
+			int m_nEndframe = 60
+			float m_flFps = 30.000000
+			CAnimationLoop m_Loop = CAnimationLoop
+			{
+				bool m_bLoop = false
+				bool m_bSmoothLoop = false
+				int m_nSmoothLoopStart = 0
+				int m_nSmoothLoopEnd = 0
+				CVAnimCmdStartLoop m_StartLoop = CVAnimCmdStartLoop
+				{
+					bool m_bEnabled = false
+					int m_nLoopRestart = 0
+				}
+			}
+			bool m_bHidden = false
+			CActivity[] m_Activities = 
+			[
+				CActivity
+				{
+					string m_Name = "ACT_DOTA_DIE"
+					int m_nWeight = 1
+				}
+			]
+			CAnimationEvent[] m_AnimationEvents = 
+			[
+				
+			]
+			CMotionFrame[] m_MotionFrames = 
+			[
+				CMotionFrame
+				{
+					int m_nFrame = 8
+					bool m_bExtractTX = true
+					bool m_bExtractTY = true
+					bool m_bExtractTZ = false
+					bool m_bExtractRX = false
+					bool m_bExtractRY = false
+					bool m_bExtractRZ = false
+					bool m_bDiscardTX = false
+					bool m_bDiscardTY = false
+					bool m_bDiscardTZ = false
+					bool m_bDiscardRX = false
+					bool m_bDiscardRY = false
+					bool m_bDiscardRZ = false
+				},
+				CMotionFrame
+				{
+					int m_nFrame = 9
+					bool m_bExtractTX = true
+					bool m_bExtractTY = true
+					bool m_bExtractTZ = false
+					bool m_bExtractRX = false
+					bool m_bExtractRY = false
+					bool m_bExtractRZ = false
+					bool m_bDiscardTX = false
+					bool m_bDiscardTY = false
+					bool m_bDiscardTZ = false
+					bool m_bDiscardRX = false
+					bool m_bDiscardRY = false
+					bool m_bDiscardRZ = false
+				},
+				CMotionFrame
+				{
+					int m_nFrame = 14
+					bool m_bExtractTX = true
+					bool m_bExtractTY = true
+					bool m_bExtractTZ = false
+					bool m_bExtractRX = false
+					bool m_bExtractRY = false
+					bool m_bExtractRZ = false
+					bool m_bDiscardTX = false
+					bool m_bDiscardTY = false
+					bool m_bDiscardTZ = false
+					bool m_bDiscardRX = false
+					bool m_bDiscardRY = false
+					bool m_bDiscardRZ = false
+				}
+			]
+			CIKrule*[] m_pIkRules = 
+			[
+				
+			]
+			CAlignAnimation* m_pAlignAnimation = NULL
+			CAdjustAnimation m_adjustAnimation = CAdjustAnimation
+			{
+				float(3) m_translation = ( 0.000000, 0.000000, 0.000000 )
+				float(3) m_rotation = ( 0.000000, 0.000000, 0.000000 )
+			}
+			string[] m_Keywords = 
+			[
+				
+			]
+			CVAnimResourceSequenceParams m_sequenceParams = CVAnimResourceSequenceParams
+			{
+				float m_flFadeInTime = 0.200000
+				float m_flFadeOutTime = 0.200000
+			}
+		},
+		CVanim
+		{
+			string m_Animationname = "tz_attack_placeholder_2"
+			string m_Filepath = "models/characters/animations/tz_attack_placeholder_2.dmx"
+			int m_nStartframe = 0
+			int m_nEndframe = 39
+			float m_flFps = 24.000000
+			CAnimationLoop m_Loop = CAnimationLoop
+			{
+				bool m_bLoop = false
+				bool m_bSmoothLoop = false
+				int m_nSmoothLoopStart = 0
+				int m_nSmoothLoopEnd = 0
+				CVAnimCmdStartLoop m_StartLoop = CVAnimCmdStartLoop
+				{
+					bool m_bEnabled = false
+					int m_nLoopRestart = 0
+				}
+			}
+			bool m_bHidden = false
+			CActivity[] m_Activities = 
+			[
+				CActivity
+				{
+					string m_Name = "ACT_DOTA_ATTACK"
+					int m_nWeight = 1
+				}
+			]
+			CAnimationEvent[] m_AnimationEvents = 
+			[
+				
+			]
+			CMotionFrame[] m_MotionFrames = 
+			[
+				CMotionFrame
+				{
+					int m_nFrame = 0
+					bool m_bExtractTX = true
+					bool m_bExtractTY = true
+					bool m_bExtractTZ = false
+					bool m_bExtractRX = false
+					bool m_bExtractRY = false
+					bool m_bExtractRZ = false
+					bool m_bDiscardTX = false
+					bool m_bDiscardTY = false
+					bool m_bDiscardTZ = false
+					bool m_bDiscardRX = false
+					bool m_bDiscardRY = false
+					bool m_bDiscardRZ = false
+				}
+			]
+			CIKrule*[] m_pIkRules = 
+			[
+				
+			]
+			CAlignAnimation* m_pAlignAnimation = NULL
+			CAdjustAnimation m_adjustAnimation = CAdjustAnimation
+			{
+				float(3) m_translation = ( 0.000000, 0.000000, 0.000000 )
+				float(3) m_rotation = ( 0.000000, 0.000000, 0.000000 )
+			}
+			string[] m_Keywords = 
+			[
+				
+			]
+			CVAnimResourceSequenceParams m_sequenceParams = CVAnimResourceSequenceParams
+			{
+				float m_flFadeInTime = 0.200000
+				float m_flFadeOutTime = 0.200000
+			}
+		}
+	]
+	string[] m_sScripts = 
+	[
+		
+	]
+}
+
+NodeMaterialGroupList_t NodeMaterialGroupList_t_0
+{
+	NodeMaterialGroup_t[] m_materialGroups = 
+	[
+		NodeMaterialGroup_t
+		{
+			string m_name = "default"
+			string[] m_materialList = 
+			[
+				"materials/characters/terezi/clothes.vmat",
+				"materials/dev/primary_black.vmat",
+				"materials/characters/terezi/face.vmat",
+				"materials/characters/terezi/teeth.vmat",
+				"materials/characters/terezi/troll_skin.vmat",
+				"materials/characters/terezi/blind_eyeball.vmat",
+				"materials/characters/terezi/troll_tongue.vmat",
+				"materials/characters/terezi/troll_horn.vmat",
+				"materials/characters/terezi/terezi_shoes.vmat",
+				"materials/characters/terezi/glasses.vmat"
+			]
+		},
+		NodeMaterialGroup_t
+		{
+			string m_name = "besighted"
+			string[] m_materialList = 
+			[
+				"materials/characters/terezi/clothes.vmat",
+				"materials/dev/primary_black.vmat",
+				"materials/characters/terezi/face.vmat",
+				"materials/characters/terezi/teeth.vmat",
+				"materials/characters/terezi/troll_skin.vmat",
+				"materials/characters/terezi/troll_eye_l.vmat",
+				"materials/characters/terezi/troll_tongue.vmat",
+				"materials/characters/terezi/troll_horn.vmat",
+				"materials/characters/terezi/terezi_shoes.vmat",
+				"materials/characters/terezi/glasses.vmat",
+				"materials/characters/terezi/troll_pupil.vmat"
+			]
+		}
+	]
+}
+
+MeshGroupList_t MeshGroupList_t_0
+{
+	MeshGroup_t[] m_meshGroups = 
+	[
+		MeshGroup_t
+		{
+			string m_name = "Terezi"
+			bool m_bEnabledByDefault = true
+			string[] m_meshList = 
+			[
+				"models/characters/terezi_reference.vmesh",
+				"models/characters/terezi_bodygroup_horns.vmesh",
+				"models/characters/terezi_bodygroup_lowerbody_2.vmesh",
+				"models/characters/terezi_bodygroup_feet_1.vmesh",
+				"models/characters/terezi_bodygroup_upperbody_1.vmesh"
+			]
+			string[] m_physList = 
+			[
+				
+			]
+		},
+		MeshGroup_t
+		{
+			string m_name = "Glasses"
+			bool m_bEnabledByDefault = true
+			string[] m_meshList = 
+			[
+				"models/characters/terezi_bodygroup_glasses.vmesh"
+			]
+			string[] m_physList = 
+			[
+				
+			]
+		},
+		MeshGroup_t
+		{
+			string m_name = "Weapon"
+			bool m_bEnabledByDefault = true
+			string[] m_meshList = 
+			[
+				"models/characters/c_tcane_reference.vmesh"
+			]
+			string[] m_physList = 
+			[
+				
+			]
+		},
+		MeshGroup_t
+		{
+			string m_name = "ClothesDefault"
+			bool m_bEnabledByDefault = true
+			string[] m_meshList = 
+			[
+				"models/characters/terezi_bodygroup_top.vmesh",
+				"models/characters/terezi_bodygroup_bottom.vmesh",
+				"models/characters/terezi_bodygroup_shoes.vmesh"
+			]
+			string[] m_physList = 
+			[
+				
+			]
+		},
+		MeshGroup_t
+		{
+			string m_name = "Hair"
+			bool m_bEnabledByDefault = true
+			string[] m_meshList = 
+			[
+				"models/characters/terezi_bodygroup_hair_1.vmesh"
+			]
+			string[] m_physList = 
+			[
+				
+			]
+		},
+		MeshGroup_t
+		{
+			string m_name = "HatHair"
+			bool m_bEnabledByDefault = false
+			string[] m_meshList = 
+			[
+				"models/characters/terezi_bodygroup_hair_2.vmesh"
+			]
+			string[] m_physList = 
+			[
+				
+			]
+		}
+	]
+}
+
+CVMaterialRemapList CVMaterialRemapList_0
+{
+	CVMaterialRemap[] m_vMaterialRemapList = 
+	[
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "clothes_terezi.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/clothes.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "black.vmat"
+			string m_sReplaceMaterial = "materials/dev/primary_black.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "face_terezi.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/face.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "teeth_terezi.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/teeth.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "body_terezi.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/troll_skin.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "eyeball_r.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/blind_eyeball.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "eyeball_l.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/blind_eyeball.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "tongue.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/troll_tongue.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "glasses.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/glasses.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "utility_trolls.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/troll_horn.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "shoes_terezi.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/terezi_shoes.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "cane_sheet.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/terezi_cane.vmat"
+		},
+		CVMaterialRemap
+		{
+			string m_sSearchMaterial = "exclude.vmat"
+			string m_sReplaceMaterial = "materials/characters/terezi/transparent.vmat"
+		}
+	]
+}

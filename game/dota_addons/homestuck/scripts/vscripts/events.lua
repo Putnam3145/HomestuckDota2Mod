@@ -32,6 +32,28 @@ function GameMode:OnNPCSpawned(keys)
   GameMode:_OnNPCSpawned(keys)
 
   local npc = EntIndexToHScript(keys.entindex)
+  Timers:CreateTimer( 0.05, function()
+    if not npc:IsHero() then return nil end
+    print('this is happening')
+    local toRemove = {}
+    local wearable = npc:FirstMoveChild()
+    while wearable ~= nil do
+      if wearable:GetClassname() == "dota_item_wearable" then
+        table.insert( toRemove, wearable )
+      end
+      wearable = wearable:NextMovePeer()
+    end
+
+      -- Remove wearables
+    for k, v in pairs( toRemove ) do
+      v:SetModel( "models/development/invisiblebox.vmdl" )
+      v:RemoveSelf()
+    end
+
+    -- Set model
+
+    return nil
+  end)
 end
 
 -- An entity somewhere has been hurt.  This event fires very often with many units so don't do too many expensive
