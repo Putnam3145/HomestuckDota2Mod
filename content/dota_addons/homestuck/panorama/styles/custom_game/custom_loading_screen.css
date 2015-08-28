@@ -20,6 +20,27 @@
   flow-children: right;
 }
 
+#CreditsPanel
+{
+  horizontal-align: left;
+  vertical-align: bottom;
+  margin-bottom: 400px;
+  margin-left: 100px;
+  flow-children: down;
+}
+
+#CreditsHeader
+{
+  font-size: 30px;
+  color: #a0a0a0;
+}
+
+.AddonCredits
+{
+  font-size: 20px;
+  color: #cccccc;
+}
+
 #AddonTitle
 {
   margin-bottom: -15px;

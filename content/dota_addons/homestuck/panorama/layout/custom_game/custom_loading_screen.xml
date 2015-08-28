@@ -9,5 +9,11 @@
     <Panel id="TitlePanel">
       <Label id="AddonTitle" text="#addon_game_name" style="" />
     </Panel>
+    <Panel id="CreditsPanel"> <!-- This'll probably have to be moved to its own screen eventually-->
+      <Label id="CreditsHeader" text="#credits_string" />
+      <Label class="AddonCredits" text="#putnam_stuff" />
+      <Label class="AddonCredits" text="#babyfawnlegs_stuff" />
+      <Label class="AddonCredits" text="#hussie_stuff" />
+    </Panel>
   </Panel>
 </root>
