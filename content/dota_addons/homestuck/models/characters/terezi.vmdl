@@ -1137,10 +1137,10 @@ CVanimGroup CVanimGroup_1
 		},
 		CVanim
 		{
-			string m_Animationname = "tz_attack_placeholder_2"
-			string m_Filepath = "models/characters/animations/tz_attack_placeholder_2.dmx"
+			string m_Animationname = "tz_attack_placeholder_3"
+			string m_Filepath = "models/characters/animations/tz_attack_placeholder_3.dmx"
 			int m_nStartframe = 0
-			int m_nEndframe = 39
+			int m_nEndframe = 24
 			float m_flFps = 24.000000
 			CAnimationLoop m_Loop = CAnimationLoop
 			{
